@@ -1,0 +1,25 @@
+{
+  "name": "joscha-bauer-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Joscha Bauer Portfolio",
+  "author": "Dominik Dewitz",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.10.2",
+    "gatsby-plugin-gatsby-cloud": "^2.11.0",
+    "gatsby-plugin-sass": "^4.11.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.37.5"
+  }
+}
