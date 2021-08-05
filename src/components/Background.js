@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import backgroundCropped from '../images/background-cropped-1920-300dpi.jpg'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 import LogoSpinner from './LogoSpinner'
 
 export default function Background(props) {
@@ -11,6 +11,7 @@ export default function Background(props) {
 
   return (
     <div className="main-container" >
+      <AnimatePresence exitBeforeEnter>
       {isLoading ? <LogoSpinner /> : null }
       <motion.img
         style={isLoading ? {display: 'none'} : {display: 'block'} }
@@ -21,6 +22,7 @@ export default function Background(props) {
         src={backgroundCropped} alt=""
         onLoad={backgroundLoaded}
       />
+      </AnimatePresence>
     </div>
   )
 }

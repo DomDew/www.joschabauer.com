@@ -4,7 +4,6 @@ import logo from '../images/logo.png'
 
 export default function LogoSpinner() {
   return (
-    <AnimatePresence>
       <motion.img
         className="logo-spinner"
         src={logo}
@@ -17,6 +16,5 @@ export default function LogoSpinner() {
           loop: Infinity
         }}
       />
-    </AnimatePresence>
   )
 }
