@@ -1,7 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import logo from '../images/logo.png'
-import { Link } from "react-router-dom";
+import { Link } from "@reach/router";
 
 const groupVariants = {
   open: {

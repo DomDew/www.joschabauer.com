@@ -1,46 +1,22 @@
 // DEPENDENCIES
 import * as React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from 'react-router-dom'
-import { AnimatePresence } from 'framer-motion'
-import { Helmet } from 'react-helmet';
+import { Router } from '@reach/router'
 
 // STYLES
 import './App.scss';
 
 // COMPONENTS
-import Background from '../components/Background';
-import Navbar from '../components/Navbar';
-import Privacy from '../components/Privacy';
-import Imprint from '../components/Imprint';
+import Privacy from './privacy';
+import Home from '../components/Home';
+import Imprint from './imprint';
 
 function App() {
   return (
     <div className="main-wrapper">
       <Router>
-        <Switch>
-          <Route path="/" exact> 
-            <Navbar />
-            <Background />
-          </Route>
-          <Route path="/privacy">
-            <Navbar />
-            <Background />
-            <AnimatePresence exitBeforeEnter>
-              <Privacy />
-            </AnimatePresence>
-          </Route>
-          <Route path="/imprint">
-            <Navbar />
-            <Background />
-            <AnimatePresence exitBeforeEnter>
-              <Imprint />
-            </AnimatePresence>
-          </Route>
-        </Switch>
+        <Home path="/" /> 
+        <Privacy path="/privacy/" />
+        <Imprint path="/imprint/" />
       </Router> 
     </div>
   );

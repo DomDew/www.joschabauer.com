@@ -1,8 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
+import { Link } from '@reach/router'
 
-export default function Imprint() {
+export default function ImprintCard() {
   return (
     <motion.div 
       className="card-container"
