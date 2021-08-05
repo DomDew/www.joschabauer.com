@@ -15,7 +15,6 @@ import Imprint from './imprint';
 function App() {
   return (
     <div className="main-wrapper">
-      <AnimatePresence exitBeforeEnter>
         <Navbar />
         <Background />
         
@@ -23,7 +22,6 @@ function App() {
           <Privacy path="/privacy" />
           <Imprint path="/imprint" />
         </Router>
-      </AnimatePresence>
     </div>
   );
 }
