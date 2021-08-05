@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Prestige Elite Std';
+  src: url("../fonts/PrestigeEliteStd-Bd.otf") format('opentype');
+}
+
+p, a, h1, h2 {
+  font-family: 'Prestige Elite Std';
+  margin: 0;
+  padding: 0;
+  color: white;
+  opacity: 0.9;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  width: fit-content;
+}
+

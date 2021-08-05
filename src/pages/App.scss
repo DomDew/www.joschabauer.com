@@ -1,0 +1,32 @@
+// STYLE IMPORTS
+@import '../styles/background';
+@import '../styles/card';
+@import '../styles/colors';
+@import '../styles/fonts';
+@import '../styles/navbar';
+
+@font-face {
+  font-family: 'Prestige Elite Std';
+  src: url(../fonts/PrestigeEliteStd.otf) format("otf");
+}
+
+body {
+  background-color: $greengrey;
+  margin: 0;
+}
+
+.main-wrapper {
+  position: relative;
+  background-color: #c9d2cf;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.cross-redirect {
+  position: sticky;
+  float: right;
+  top: 16px;
+  right: 16px;
+  color: white;
+}

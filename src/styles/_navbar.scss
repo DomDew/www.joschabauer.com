@@ -1,0 +1,72 @@
+@import 'colors';
+
+.nav-container {
+  position: absolute;
+  left: 0;
+  padding-top: 80px;
+  width: 160px;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  background-color: $darker-greengrey;
+  z-index: 5;
+}
+
+.nav-animator {
+  padding: 0;
+}
+
+.hamburger {
+  border: none;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 10;
+  background-color: transparent;
+  &::before {
+    background-color: #aeb8b4;
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: -1px;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    z-index: -1;
+  }
+}
+
+.nav-logo {
+  width: 80px;
+  opacity: 0.9;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.nav-description {
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.socials, .imprint, .contact {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.nav-link {
+  &::after {
+    border-top: .1em solid white;
+    content: "";
+    position: absolute;
+      width: 0%;
+      bottom: .65em;
+      left: 0;
+    transition: width .6s cubic-bezier(0,.5,0,1);
+  }
+  &:hover::after {
+    width: 100%;
+  }
+}
