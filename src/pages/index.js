@@ -15,8 +15,8 @@ function App() {
     <div className="main-wrapper">
       <Router>
         <Home path="/" /> 
-        <Privacy path="/privacy/" />
-        <Imprint path="/imprint/" />
+        <Privacy path="/privacy" />
+        <Imprint path="/imprint" />
       </Router> 
     </div>
   );

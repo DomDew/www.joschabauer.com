@@ -2,15 +2,15 @@ import { AnimatePresence } from 'framer-motion'
 import React from 'react'
 import Background from '../components/Background'
 import Navbar from '../components/Navbar'
-import Imprint from '../components/ImprintCard'
+import ImprintCard from '../components/ImprintCard'
 
-export default function ImprintPath() {
+export default function Imprint() {
   return (
     <>
       <Navbar />
       <Background />
       <AnimatePresence exitBeforeEnter>
-        <Imprint />
+        <ImprintCard />
       </AnimatePresence>
     </>
   )
