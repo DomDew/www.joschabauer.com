@@ -8,7 +8,7 @@ export default function Privacy() {
   return (
     <>
       <Navbar />
-      <Background />
+      <Background initial={false} />
       <AnimatePresence exitBeforeEnter>
         <PrivacyCard />
       </AnimatePresence>

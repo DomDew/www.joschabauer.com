@@ -8,7 +8,7 @@ export default function Imprint() {
   return (
     <>
       <Navbar />
-      <Background />
+      <Background initial={false} />
       <AnimatePresence exitBeforeEnter>
         <ImprintCard />
       </AnimatePresence>

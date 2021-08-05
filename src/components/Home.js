@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Background />
+      <Background initial={{ opacity: 0 }} />
     </>
   )
 }

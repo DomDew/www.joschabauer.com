@@ -14,7 +14,7 @@ export default function Background(props) {
       {isLoading ? <LogoSpinner /> : null }
       <motion.img
         style={isLoading ? {display: 'none'} : {display: 'block'} }
-        initial={{opacity: 0}}
+        initial={props.initial}
         animate={{opacity: 0.8}}
         transition={{duration: 5}}
         className="background-image" 
