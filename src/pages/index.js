@@ -5,7 +5,8 @@ import {
   Switch,
   Route
 } from 'react-router-dom'
-import { AnimatePresence } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion'
+import { Helmet } from 'react-helmet';
 
 // STYLES
 import './App.scss';
