@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Link } from '@reach/router'
+import { Link } from 'gatsby'
 
 export default function PrivacyCard() {
   return (

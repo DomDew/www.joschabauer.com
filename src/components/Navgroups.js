@@ -1,7 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import logo from '../images/logo.png'
-import { Link } from "@reach/router";
+import { Link } from 'gatsby'
 
 const groupVariants = {
   open: {
@@ -47,7 +47,7 @@ export const Navgroups = () => (
         <a className="nav-link" href="mailto:info@joschabauer.com">contact</a>
       </motion.div>
       <motion.div variants={groupVariants} className="imprint">
-        <Link className="nav-link" to="/privacy">privacy</Link>
+        <Link className="nav-link" to="/privacy">privacy</Link>{" "}
         <Link className="nav-link" to="/imprint">imprint</Link>
       </motion.div>
   </motion.ul>

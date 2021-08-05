@@ -15,9 +15,10 @@ export default function Background(props) {
       {isLoading ? <LogoSpinner /> : null }
       <motion.img
         style={isLoading ? {display: 'none'} : {display: 'block'} }
-        initial={props.initial}
+        initial={{opacity: 0}}
         animate={{opacity: 0.8}}
-        transition={{duration: 5}}
+        exit={{opacity: 0}}
+        transition={{duration: 3}}
         className="background-image" 
         src={backgroundCropped} alt=""
         onLoad={backgroundLoaded}
