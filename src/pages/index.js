@@ -1,28 +1,14 @@
 // DEPENDENCIES
 import * as React from 'react';
-import { Router } from '@reach/router'
+
+// COMPONENTS
+import Layout from '../components/Layout';
 
 // STYLES
 import './App.scss';
 
-// COMPONENTS
-import Navbar from '../components/Navbar';
-import Background from '../components/Background';
-import Privacy from './privacy';
-import Imprint from './imprint';
-
 function App() {
-  return (
-    <div className="main-wrapper">
-        <Navbar />
-        <Background />
-        
-        <Router>
-          <Privacy path="/privacy" />
-          <Imprint path="/imprint" />
-        </Router>
-    </div>
-  );
+  return ( <Layout /> )
 }
 
 export default App;
