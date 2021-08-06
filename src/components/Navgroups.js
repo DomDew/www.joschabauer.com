@@ -39,9 +39,9 @@ export const Navgroups = () => (
         <p>design</p>
       </motion.div>
       <motion.div variants={groupVariants} className="socials">
-        <a className="nav-link" href="https://www.instagram.com/joschabauer__" target="_blank" rel="noreferrer">visual</a>
-        <a className="nav-link" href="https://joschabauer.bandcamp.com" target="_blank" rel="noreferrer">sound</a>
-        <a className="nav-link" href="https://www.vimeo.com/joschabauer" target="_blank" rel="noreferrer">video</a>
+        <a className="nav-link" href="https://www.instagram.com/joschabauer__" target="_blank" rel="noreferrer">instagram</a>
+        <a className="nav-link" href="https://joschabauer.bandcamp.com" target="_blank" rel="noreferrer">bandcamp</a>
+        <a className="nav-link" href="https://www.vimeo.com/joschabauer" target="_blank" rel="noreferrer">vimeo</a>
       </motion.div>
       <motion.div variants={groupVariants} className="contact">
         <a className="nav-link" href="mailto:info@joschabauer.com">contact</a>

@@ -18,6 +18,7 @@ const variants = {
 
 export default function Navbar() {
   const [isOpen, toggleOpen] = useCycle(false, true)
+
   return (
     <motion.nav
       initial={false}

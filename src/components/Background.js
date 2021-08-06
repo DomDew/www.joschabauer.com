@@ -12,7 +12,6 @@ export default function Background(props) {
 
   return (
     <div className="main-container" >
-      {console.log(isLoading)}
       <AnimatePresence exitBeforeEnter>
         {isLoading && <motion.img
         key="logo-spinner"
