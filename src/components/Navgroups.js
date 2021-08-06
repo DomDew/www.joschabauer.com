@@ -12,7 +12,7 @@ const groupVariants = {
     }
   },
   closed: {
-    y: 50,
+    x: -50,
     opacity: 0,
     transition: {
       y: { stiffness: 1000 }
