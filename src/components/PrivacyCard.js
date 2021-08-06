@@ -4,7 +4,8 @@ import { Link } from 'gatsby'
 
 export default function PrivacyCard() {
   return (
-    <motion.div 
+    <motion.div
+      key="privacy-card"
       className="card-container"
       initial={{opacity: 0}}
       animate={{opacity: 1}}

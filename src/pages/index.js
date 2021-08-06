@@ -1,7 +1,6 @@
 // DEPENDENCIES
 import * as React from 'react';
 import { Router } from '@reach/router'
-import { AnimatePresence } from 'framer-motion';
 
 // STYLES
 import './App.scss';

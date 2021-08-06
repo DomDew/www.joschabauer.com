@@ -4,7 +4,8 @@ import { Link } from 'gatsby'
 
 export default function ImprintCard() {
   return (
-    <motion.div 
+    <motion.div
+      key="imprint-card"
       className="card-container"
       initial={{opacity: 0}}
       animate={{opacity: 1}}
