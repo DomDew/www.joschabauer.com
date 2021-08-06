@@ -21,3 +21,11 @@
 .card-text {
   margin: 3rem;
 }
+
+@media only screen and (max-width: 414px) {
+  .card-container {
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+}
