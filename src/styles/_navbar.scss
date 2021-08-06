@@ -11,6 +11,13 @@
   flex-direction: column;
   background-color: $darker-greengrey;
   z-index: 5;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    display: none;
+  }
 }
 
 .nav-animator {
