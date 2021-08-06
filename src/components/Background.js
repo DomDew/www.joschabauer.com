@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import backgroundCropped from '../images/background-cropped-1920-300dpi.jpg'
 import { motion, AnimatePresence } from 'framer-motion'
-import LogoSpinner from './LogoSpinner'
 import logo from '../images/logo.png'
 
 export default function Background(props) {
@@ -25,15 +24,19 @@ export default function Background(props) {
           times: [0, 0.5, 1],
           ease: 'easeInOut',
           duration: 2,
-          loop: Infinity
+          duration: 2,
+          repeat: 2,
+          repeatDelay: 0.2
         }}
       /> }
       </AnimatePresence>
       <motion.img
         style={isLoading ? {display: 'none'} : {display: 'block'} }
-        initial={{opacity: 0}}
-        animate={{opacity: 0.8}}
-        transition={{duration: 3, delay: 2}}
+        animate={isLoading === false && {opacity: [0, 0.8, 0.8], scale: [1, 1, 1.1] }}
+        transition={{
+          duration: 20,
+          times: [0, 0.2, 1]
+        }}
         className="background-image" 
         src={backgroundCropped} alt=""
         onLoad={backgroundLoaded}
