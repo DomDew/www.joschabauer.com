@@ -25,7 +25,7 @@ export default function PrivacyCard() {
       <br />
       Datenschutz <br />
       Sicherheit und Schutz Ihrer personenbezogenen Daten <br />
-      Aus Technischen- und Sicherheitsgründen werden vom Provider (strato.de) von Ihnen gewisse technische Daten gespeichert. Mehr Details dazu erhalten Sie weiter unten. Bei Schriftverkehr behalte ich zur Kontaktaufnahme Ihre Kontaktdaten. Die Vertraulichkeit der von Ihnen bereitgestellten personenbezogenen Daten werden gewahrt und diese vor unbefugten Zugriffen geschützt. <br />
+      Aus Technischen- und Sicherheitsgründen werden vom Provider (strato.de, bzw. gatsby.com) von Ihnen gewisse technische Daten gespeichert. Mehr Details dazu erhalten Sie weiter unten. Bei Schriftverkehr behalte ich zur Kontaktaufnahme Ihre Kontaktdaten. Die Vertraulichkeit der von Ihnen bereitgestellten personenbezogenen Daten werden gewahrt und diese vor unbefugten Zugriffen geschützt. <br />
       <br />
       Begriffsbestimmungen <br />
       Der Gesetzgeber fordert, dass personenbezogene Daten auf rechtmäßige Weise, nach Treu und Glauben und in einer für die betroffene Person nachvollziehbaren Weise verarbeitet werden („Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz“). Um dies zu gewährleisten, informieren wir Sie über die einzelnen gesetzlichen Begriffsbestimmungen, die auch in dieser Datenschutzerklärung verwendet werden: <br />
