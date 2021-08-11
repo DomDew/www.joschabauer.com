@@ -1,6 +1,6 @@
-import { AnimatePresence } from 'framer-motion'
-import React from 'react'
-import PrivacyCard from '../components/PrivacyCard'
+import { AnimatePresence } from "framer-motion";
+import React from "react";
+import PrivacyCard from "../components/PrivacyCard";
 
 export default function Privacy() {
   return (
@@ -9,5 +9,5 @@ export default function Privacy() {
         <PrivacyCard />
       </AnimatePresence>
     </>
-  )
+  );
 }

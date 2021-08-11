@@ -8,7 +8,7 @@ import Navbar from "./Navbar";
 export default function Layout({ children }) {
   return (
     <div className="main-wrapper">
-      <Helmet htmlAttributes={{ lang: 'en-GB' }} >
+      <Helmet htmlAttributes={{ lang: "en-GB" }}>
         <title>Portfolio | Joscha Bauer</title>
         <meta
           name="description"
