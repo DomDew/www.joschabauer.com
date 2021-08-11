@@ -1,5 +1,5 @@
 <h3>This is a React/Gatsby app deployed with the Gatsby Cloud.</h3>
-<a href="https://www.joschabauer.com">Feel free to have a look.</a>
+<a href="https://www.joschabauer.com" target="_blank">Feel free to have a look.</a>
 <p>It serves as an online Portfolio for the Hannover based artist, visual and audio designer / communicator Joscha Bauer.</p>
 <br>
 <p>If you want to clone the repo to have a look at what is going on, make sure to install Gatsby on your machine.</p>
