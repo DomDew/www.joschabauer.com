@@ -30,14 +30,14 @@ const itemVariants = {
 };
 
 export const Navgroups = () => (
-  <motion.ul className="nav-animator" variants={itemVariants}>
+  <motion.div className="nav-animator" variants={itemVariants}>
     <motion.img variants={groupVariants} className="nav-logo" src={logo} alt="White scribbles" />
-      <motion.div variants={groupVariants} className="nav-description">
+      <motion.header variants={groupVariants} className="nav-description">
         <p>print,</p>
         <p>audio &</p>
         <p>video</p>
         <p>design</p>
-      </motion.div>
+      </motion.header>
       <motion.div variants={groupVariants} className="socials">
         <a className="nav-link" href="https://www.instagram.com/joschabauer__" target="_blank" rel="noreferrer">instagram</a>
         <a className="nav-link" href="https://joschabauer.bandcamp.com" target="_blank" rel="noreferrer">bandcamp</a>
@@ -50,5 +50,5 @@ export const Navgroups = () => (
         <Link className="nav-link" to="/privacy">privacy</Link>{" "}
         <Link className="nav-link" to="/imprint">imprint</Link>
       </motion.div>
-  </motion.ul>
+  </motion.div>
 );
